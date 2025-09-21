@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Organo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18.0-blue?logo=react)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-## Available Scripts
+Um projeto **React** para criação de organogramas, exibindo colaboradores organizados por time.  
+Cada colaborador tem nome, cargo e imagem exibidos em um card.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📑 Índice
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Funcionalidades](#-funcionalidades)  
+- [Tecnologias](#-tecnologias)  
+- [Instalação](#-instalação)  
+- [Uso](#-uso)  
+- [Estrutura do Projeto](#-estrutura-do-projeto)  
+- [Contribuição](#-contribuição)  
+- [Licença](#-licença)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Visualização de organograma com colaboradores agrupados por times  
+- Cards com **nome**, **cargo** e **imagem**  
+- Interface responsiva e interativa  
+- Fácil inclusão/edição de colaboradores e times
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://react.dev/)  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
+- [npm](https://www.npmjs.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone e instale as dependências:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone o repositório
+git clone https://github.com/DaviAlves06/Organo.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Entre na pasta
+cd Organo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Instale as dependências
+npm install
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ▶️ Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para rodar em **desenvolvimento**:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Acesse no navegador: [http://localhost:3000](http://localhost:3000)
 
-### Analyzing the Bundle Size
+Para gerar versão de **produção**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📂 Estrutura do Projeto
 
-### Advanced Configuration
+```
+Organo/
+├── public/
+├── src/
+│   ├── componentes/        # Cards, times, etc.
+│   ├── assets/             # Imagens, estilos estáticos
+│   ├── App.js              # Componente raiz
+│   └── index.js            # Entrada principal
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🤝 Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contribuições são **bem-vindas**!
 
-### `npm run build` fails to minify
+1. Faça um fork do projeto  
+2. Crie uma branch (`git checkout -b feature/minha-nova-funcionalidade`)  
+3. Commit suas mudanças (`git commit -m 'Adicionar nova funcionalidade'`)  
+4. Push para a branch (`git push origin feature/minha-nova-funcionalidade`)  
+5. Abra um **Pull Request**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📜 Licença
+
+Distribuído sob a licença **MIT**. Veja `LICENSE` para mais informações.
+
+---
+
+👨‍💻 Desenvolvido por [Davi Alves](https://github.com/DaviAlves06)
