@@ -24,11 +24,6 @@ const Footer = () => {
         <section>
             <img className='logo' src="/imagens/logo.png" alt="" />
         </section>
-        <section>
-            <p>
-                Desenvolvido por Alura.
-            </p>
-        </section>
     </footer>)
 }
 
